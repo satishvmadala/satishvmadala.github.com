@@ -112,7 +112,7 @@
 
       <footer>
         <p>&copy; Copy Left {{ site.time | date: '%Y' }} <a href="http://mvsatish.in">{{ site.author.name }} </a>
-          Blog was made Using <a href="#" target="_blank">JBootstrap</a> work using Ruby
+          Using <a href="#" target="_blank">JBootstrap</a> work using Ruby
           and <a href="#" target="_blank">Hooligan</a><br/>
 	Unless and otherwise stated, the content in this blog space can be distributed/shared @ free Under CC BY SA License.
         </p>

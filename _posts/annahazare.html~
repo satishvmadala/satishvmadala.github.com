@@ -1,0 +1,8 @@
+---
+layout: post
+category : articles
+tagline: "Supporting tagline"
+tags : [politics, india, social]
+comments : true
+---
+{% include JB/setup %}
