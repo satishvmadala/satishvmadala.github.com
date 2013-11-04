@@ -11,3 +11,6 @@ Do you want to read some Articles Written by me ? <a href="/blogentries.html#art
 
 
 This is my blog Space, Please visit <a href="http://mvsatish.in">MVSatish.in</a> to know about me.
+
+
+Unless Specified, This Blog Data can used under CC-BY-SA License.
