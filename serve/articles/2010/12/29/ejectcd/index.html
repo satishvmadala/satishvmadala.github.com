@@ -1,0 +1,284 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      
+        Eject Your CD-Rom Continously - 
+      
+      MVSatish
+    </title>
+    
+    <meta name="author" content="VenkataSatish Madala">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <link href="/assets/themes/hooligan/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/themes/hooligan/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">    
+    <link rel="stylesheet" type="text/css" href="/assets/themes/hooligan/css-social-buttons/css/zocial.stripped.css">
+    <link href="/assets/themes/hooligan/css/pygments.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/assets/themes/hooligan/css/darkstrap.css" rel="stylesheet" type="text/css" media="all">    
+    <link href="/assets/themes/hooligan/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    
+    <!-- fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>      
+
+
+          <a class="brand" href="/">MVSatish</a>
+
+
+          <div class="nav-collapse">
+            <ul class="nav">
+              
+              
+              
+
+
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/about.html">About</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/blogentries.html">Blog Entries</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/posts.html">Posts</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+
+
+
+            </ul>
+            <ul class="nav pull-right social visible-desktop">
+              <li class="divider-vertical"></li>
+              
+                <li>
+                  <a href="https://github.com/MVSatish" class="zocial github icon" target="_blank">
+                    <span class="hidden-desktop">Github</span>
+                  </a>
+                </li>
+              
+                  
+              
+                <li>
+                  <a href="https://twitter.com/MVSatish" class="zocial twitter icon" target="_blank">
+                  <span class="hidden-desktop">Twitter</span>
+                  </a>
+                </li>
+                                        
+                         
+                                  
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="content">
+        
+<div class="page-header">
+  <h1>
+    Eject Your CD-Rom Continously 
+    
+      <small>Using a simple C-Program</small>
+    
+  </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <p>Hi Geeks!!!</p>
+
+<p>Today I want to Show you a Simple Program which Ejects your CD ROM Tray and Close it Continuously!!! And How to Compile a Program and Make it Executable!!!!</p>
+
+<h2 id='program_'>Program :</h2>
+
+<h4 id='cd_rom_tray_eject__close_program'>//Cd -Rom Tray Eject &amp; Close Program</h4>
+
+<h4 id='program_written_by_satish'>//Program Written by Satish</h4>
+
+<h4 id='licensed_under_gpl_free_to_use_share_and_modifydistribute'>//Licensed Under GPL, Free to Use, Share and Modify/Distribute</h4>
+
+<pre><code>//Program Start
+main()
+{
+for(;;)
+{
+system(&quot;eject&quot;);
+system(&quot;eject-t&quot;);
+}
+return 0;
+}
+//program end</code></pre>
+
+<h2 id='compilation_under_linux'>Compilation Under Linux</h2>
+
+<ol>
+<li>Open Text Editor &amp; Copy the Above Program and Save it as simple.c</li>
+
+<li>Go to the Directory, where you saved the file simple.c using CD command</li>
+
+<li>Now Compile the program code is gcc simple.c -o simple</li>
+
+<li>Now You can Find the EXECUTABLE file in the Same Directory.</li>
+
+<li>Double Click the EXE file and have fun</li>
+</ol>
+
+<p>a bientot, Au revoir!!! :-)</p>
+    <hr>
+    <div class="pagination btn-group">
+      
+        <a class="btn disabled prev">&larr; Previous</a>
+      
+        <a class="btn" href="/archive.html">Archive</a>
+      
+        <a class="btn next" href="/articles/2011/06/28/fosspolicies" title="Indian It policy ever favours FOSS Growth?">Next &rarr;</a>
+      
+    </div>
+    <hr>
+    
+
+
+  <div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=156497937867642";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="fb-comments" data-href="http://mvsatish.github.io" data-num-posts="5" data-width="580" data-colorscheme="light"></div>
+
+
+
+  </div>
+  
+  <div class="span4">
+    <section>
+      <h4>Published</h4>
+      <div class="date"><span>29 December 2010</span></div>
+    </section>
+    
+      <section>
+        <h4>Category</h4>
+        <span class="category">
+          articles
+        </span>
+      </section>
+         
+    
+      <section>
+        <h4>Tags</h4>
+        <ul class="tag_box">
+          
+          
+
+
+  
+     
+    	<li><a href="/tags.html#linux-ref">linux <span>2</span></a></li>
+     
+    	<li><a href="/tags.html#software-ref">software <span>2</span></a></li>
+    
+  
+
+
+
+        </ul>
+      </section>
+             
+  </div>
+</div>
+
+
+      </div>
+
+      <footer>
+        <p>&copy; Copy Left 2013 <a href="http://mvsatish.in">VenkataSatish Madala </a>
+          Blog was made Using <a href="#" target="_blank">JBootstrap</a> work using Ruby
+          and <a href="#" target="_blank">Hooligan</a><br/>
+	Unless and otherwise stated, the content in this blog space can be distributed/shared @ free Under CC BY SA License.
+        </p>
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/assets/themes/hooligan/js/jquery.min.js"><\/script>')</script>
+    <script src="/assets/themes/hooligan/bootstrap/js/bootstrap.min.js"></script>
+
+    
+  </body>
+</html>
+
